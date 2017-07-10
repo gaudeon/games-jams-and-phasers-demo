@@ -1,0 +1,50 @@
+{
+  "resources": [
+    "audio-sprite.ogg",
+    "audio-sprite.m4a",
+    "audio-sprite.mp3",
+    "audio-sprite.ac3"
+  ],
+  "spritemap": {
+    "Cat 1": {
+      "start": 0,
+      "end": 1.1605215419501134,
+      "loop": false
+    },
+    "Cat 2": {
+      "start": 3,
+      "end": 4.15,
+      "loop": false
+    },
+    "Cat 3": {
+      "start": 6,
+      "end": 8,
+      "loop": false
+    },
+    "Cat 4": {
+      "start": 9,
+      "end": 11.458843537414966,
+      "loop": false
+    },
+    "Cat 5": {
+      "start": 13,
+      "end": 14.254036281179138,
+      "loop": false
+    },
+    "Cat 6": {
+      "start": 16,
+      "end": 17.379274376417232,
+      "loop": false
+    },
+    "Cat 7": {
+      "start": 19,
+      "end": 20.07954648526077,
+      "loop": false
+    },
+    "Cat 8": {
+      "start": 22,
+      "end": 22.62609977324263,
+      "loop": false
+    }
+  }
+}
