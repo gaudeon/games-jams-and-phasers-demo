@@ -20,11 +20,11 @@ Phaser.Device.whenReady(function () {
     game.global.asset_path = process.env.ELECTRON ? '/' : '/assets/';
 
     /* add boot state to game */
-    game.state.add('Boot', BootState);
+    // game.state.add('Boot', BootState);
 
     /* add play state to game */
-    game.state.add('Play', PlayState);
+    // game.state.add('Play', PlayState);
 
     /* start boot state */
-    game.state.start('Boot');
+    // game.state.start('Boot');
 });
