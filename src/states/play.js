@@ -85,25 +85,25 @@ export default class Play extends Phaser.State {
         this.game.stage.backgroundColor = '#7ec0ee';
 
         /* create the basket */
-        // this.createBasket();
+        this.createBasket();
 
         /* create the clouds */
-        // this.createClouds();
+        this.createClouds();
 
         /* create group of cats */
-        // this.createCats();
+        this.createCats();
 
         /* create the clock */
-        // this.createClock();
+        this.createClock();
 
         /* create the scoreBoard */
-        // this.createScoreBoard();
+        this.createScoreBoard();
 
         /* setup simple keyboard input handling */
-        // this.moveKeys = this.game.input.keyboard.createCursorKeys();
+        this.moveKeys = this.game.input.keyboard.createCursorKeys();
 
         /* start countdown */
-        // this.startCountdown();
+        this.startCountdown();
     }
 
     startCountdown () {
@@ -179,14 +179,14 @@ export default class Play extends Phaser.State {
             }
 
             /* see if we should drop another cat */
-            /* this.activeCats = this.cats.countLiving();
+            this.activeCats = this.cats.countLiving();
 
             if (this.activeCats < this.allowedActiveCats) {
                 this.dropKitteh();
-            } */
+            }
 
             /* check for collisions */
-            // this.game.physics.arcade.collide(this.basket, this.cats, this.catchKitteh, null, this);
+            this.game.physics.arcade.collide(this.basket, this.cats, this.catchKitteh, null, this);
         }
     }
 };
